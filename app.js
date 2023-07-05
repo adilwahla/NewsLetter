@@ -31,7 +31,7 @@ const jsonData=JSON.stringify(data);
 //https://${dc}.api.mailchimp.com/3.0/lists/{list_id}
 const options ={
     method:"POST",
-    auth: "adil1:2964b2dd64e9dfe63c0a4ca1b45cd473-us9",
+    auth: "adil1:b487bed926d9b6f07b03f2e2bd0aeadd-us9",
 
 };
 const request=https.request(url,options,function (response) {
@@ -52,9 +52,9 @@ const request=https.request(url,options,function (response) {
  request.write(jsonData);
  request.end();
 });
-// const apiKey="2964b2dd64e9dfe63c0a4ca1b45cd473-us9";
-// const audienceID="9c902ff572";
 
+// const audienceID="9c902ff572";
+// const apiKey="b487bed926d9b6f07b03f2e2bd0aeadd-us9"
 // Routes
 app.post("/failure",function(req,res){
     res.redirect("/");
