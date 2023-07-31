@@ -3,6 +3,8 @@ const bodyParser = require('body-parser');
 const request=require("request");
 const https=require("https");
 const app = express();
+// Require the API URL
+const { autURL, url }= require('./apiUrl');
 app.use(express.static("public")); // to use static files like css on server 
 // Parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -25,13 +27,13 @@ app.post("/", function (req, res) {
         }
     ]
 };
-
+//console.log(autURL ,url); //working fine
 const jsonData=JSON.stringify(data);
- const url="https://us9.api.mailchimp.com/3.0/lists/9c902ff572"
+ //const url="https://us9.api.mailchimp.com/3.0/lists/9c902ff57x"
 //https://${dc}.api.mailchimp.com/3.0/lists/{list_id}
 const options ={
     method:"POST",
-    auth: "adil1:b487bed926d9b6f07b03f2e2bd0aeadd-us9",
+    auth: autURL,
 
 };
 const request=https.request(url,options,function (response) {
@@ -68,6 +70,6 @@ res.sendFile(__dirname+'/signup.html');
 });
 
 // Start the server
-app.listen(process.env.PORT||3000, () => {
+app.listen(process.env.PORT||3001, () => {
   console.log('Server is running on port 3000');
 });
