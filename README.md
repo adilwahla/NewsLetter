@@ -1,6 +1,6 @@
+
 # Newsletter App using Node.js and Express with Mailchimp API
 
-![Newsletter App](image/img.png)
 
 ## Table of Contents
 
@@ -121,4 +121,5 @@ git push origin feature/your-feature-name
 
 Happy newsletter-ing! If you have any questions or issues, feel free to open an issue or contact us. We welcome contributions and hope you find the Newsletter App a useful tool for managing your newsletters!
 
-![Newsletter App]([image/img.png](https://github.com/adilwahla/NewsLetter/blob/master/public/image/img.png?raw=true)https://github.com/adilwahla/NewsLetter/blob/master/public/image/img.png?raw=true)
+
+![NewsLetter-App](https://github.com/adilwahla/NewsLetter/assets/48839911/7a711f8d-5efa-4678-a810-c4162bb26191)
