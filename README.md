@@ -120,3 +120,5 @@ git push origin feature/your-feature-name
 ---
 
 Happy newsletter-ing! If you have any questions or issues, feel free to open an issue or contact us. We welcome contributions and hope you find the Newsletter App a useful tool for managing your newsletters!
+
+![Newsletter App]([image/img.png](https://github.com/adilwahla/NewsLetter/blob/master/public/image/img.png?raw=true)https://github.com/adilwahla/NewsLetter/blob/master/public/image/img.png?raw=true)
